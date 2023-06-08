@@ -1,0 +1,79 @@
+body{
+    background-image: url(../image/back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-size: 50px;
+    color: grey;
+    font-family: 'Playfair Display', serif;
+}
+.propos{
+    margin-left: 50px;
+}
+.header{
+   height: 70px;
+}
+.titre{
+   display: inline;
+   margin-left: 250px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    border-color: grey;
+    background-color: transparent;
+    font-size: 20px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: grey;
+    color:azure;
+}
+.boutton{
+    position: absolute;
+    top: 155px;
+    right: 180px;
+}
+.texte{
+    margin-left: 80px;
+    font-size: 55px;
+}
+img{
+    width: 585px;
+    height: 500px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.grille{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.grille img{
+    margin-left: 40px;
+}
+h2{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+a{
+    font-size: 20px;
+}
+    
